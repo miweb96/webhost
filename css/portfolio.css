@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "mifuente";
+    src: url(./../assets/fonts/RubikScribble-Regular.ttf);
+}
+
+/* ESTILO DEL TITULO */
+
+h1{
+    font-family: "mifuente";
+    border-image-slice: 5;
+    font-size: 150px;
+}
+
+/* ESTILO PARA EL CUERPO */
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: bisque;
+}
+
+h2{
+    text-align: center;
+    border: 1px dashed black;
+    font-family: "mifuente", sans-serif;
+    color:blue;
+    font-size: 50px;
+}
+
+
+/* ESTILOS PARA LA BARRA DE NAVEGACION */
+
+nav{
+    
+    padding: 10px 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+a{
+    color: rgb(0, 187, 255);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(141, 84, 84);
+}
+:active{
+    color:brown;
+}
+.inicio{
+    color:blueviolet
+}
+
+/* ESTILOS DEL CONTENIDO */
+
+
+h2{
+    font-size: 50px;
+    border: 1px ridge black;
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.imagen{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(251, 206, 150);
+
+}
+.icono{
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+}
+.avisolegal, .direccion{
+    color:black
+
+}
+.avisolegal{
+    padding-left: 10px;
+}

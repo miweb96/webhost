@@ -1,0 +1,79 @@
+@font-face{
+    font-family: "mifuente";
+    src:url(./../assets/fonts/RubikScribble-Regular.ttf)
+}
+
+/* ESTILO PARA EL CUERPO */
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: bisque;
+}
+
+/* ESTILOS DEL TITULO */
+
+h1{
+
+    border-image-slice: 5;
+    font-size: 150px;
+    font-family: "mifuente";
+}
+
+
+/* ESTILOS PARA LA BARRA DE NAVEGACION */
+
+nav{
+    
+    padding: 10px 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+a{
+    color: rgb(0, 187, 255);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(141, 84, 84);
+}
+:active{
+    color:brown;
+}
+.inicio{
+    color:blueviolet
+}
+
+/* ESTILOS PARA LAS SECCIONES */
+
+h2{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(251, 206, 150);
+
+}
+.icono{
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+}
+.avisolegal, .direccion{
+    color:black
+
+}
+.avisolegal{
+    padding-left: 10px;
+}
+

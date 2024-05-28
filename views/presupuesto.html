@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./../css/presupuesto.css">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+
+    <!-- BARRA DE NAVEGACION -->
+
+    <nav>
+        <ul>
+            <li><a href="./../index.html">Inicio</a></li>
+            <li><a href="./productos.html">Relacionado</a></li>
+            <li><a href="./portfolio.html">Galeria</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a class="inicio" href="#">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO -->
+
+    <form class="form">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" pattern="[A-Z a-z]{3,15}" required><br>
+
+        <label for="email">Correo</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo" pattern="[A-Za-z0-9_-.]+@[a-z0-9_-.]+\.[a-z]{2,4}" required><br>
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su numero" pattern="[0-9]{9}" required><br>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea><br>
+
+        <label for="politica_privacidad">Aceptar la politica de privacidad</label>
+        <input type="checkbox" id="politica_privacidad" name="politica_privacidad"><br>
+
+        <div class="botonera">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+    </form>
+
+      <!-- FOOTER -->
+
+    <footer>
+        <div>
+            <p>Copyright2020</p>
+            <a href="https://www.facebook.com/"><img class="icono" src="/assets/images/footer/facebook.png" alt="facebook" title="Facebook" width="204" height="192"></a>
+            <a href="https://www.instagram.com/"><img class="icono" src="/assets/images/footer/instagram.png" alt="instagram" title="Instagram" width="204" height="192"></a>
+            <a href="https://twitter.com/"><img class="icono" src="/assets/images/footer/twitter.png" alt="twitter" title="Twitter" width="225" height="225"></a>
+        </div>
+        
+        <div>
+            <a class="direccion" href="./../views/contacto.html">Direccion de Empresa</a>
+            <a class="avisolegal" href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal">Aviso legal</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+@font-face{
+    font-family: "mifuente";
+    src:url(./../assets/fonts/RubikScribble-Regular.ttf)
+}
+
+h1{
+
+    border-image-slice: 5;
+    font-size: 150px;
+    font-family: "mifuente";
+}
+
+
+/* ESTILO PARA EL CUERPO */
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: bisque;
+}
+
+
+/* ESTILOS PARA LA BARRA DE NAVEGACION */
+
+nav{
+    
+    padding: 10px 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+a{
+    color: rgb(0, 187, 255);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(141, 84, 84);
+}
+:active{
+    color:brown;
+}
+.inicio{
+    color:blueviolet
+}
+
+/* ESTILOS DEL FORMULARIO */
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.form{
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
+
+.botonera{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    display:flex;
+    flex-direction: column;
+
+    align-items:center;
+    background-color: rgb(251, 206, 150);
+    
+
+}
+.icono{
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+}
+.avisolegal, .direccion{
+    color:black
+
+}
+.avisolegal{
+    padding-left: 10px;
+}
